@@ -1,0 +1,130 @@
+.act-btn {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+      display: inline-block;
+}
+
+.act-btn:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.act-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #17479E 0%, #165DDF 100%);
+  transition: all 0.475s;
+}
+
+// button2
+.act-btn-2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(90deg, #17479E 0%, #165DDF 100%);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+
+.act-btn-2:hover {
+background: linear-gradient(90deg, #17479E 0%, #165DDF 100%);
+  box-shadow: 0px 15px 20px rgba(156, 180, 223, 0.5);
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.act-btn-2:active {
+  transform: translateY(-1px);
+}
+
+// button3
+.act-btn-3 {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #242424;
+  background: #ffffff;
+  border: 1.5px solid transparent;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+
+}
+
+.act-btn-3:hover {
+  background: linear-gradient(90deg, #17479E 0%, #165DDF 100%);
+  border: 1.5px solid #fff;
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.act-btn-3:active {
+  transform: translateY(-1px);
+}
+
+
+// button4
+.act-btn-4 {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #17479E;
+  background: #ffffff;
+  border: 1.5px solid #17479E;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+
+}
+
+.act-btn-4:hover {
+  background: linear-gradient(90deg, #17479E 0%, #165DDF 100%);
+  border: 1.5px solid #fff;
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.act-btn-4:active {
+  transform: translateY(-1px);
+}
+
+
+

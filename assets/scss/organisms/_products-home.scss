@@ -1,0 +1,114 @@
+.towhats-products-hme {
+    width: 100%;
+    padding: 90px 0 60px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        color: #616161;
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 826px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+
+    &__head {
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 700;
+        color: #111010;
+        text-align: center; 
+        margin: auto; 
+    }
+
+
+    &__head-outer{
+         background: #111010;
+            padding: 30px 0;
+            margin: 0 20px;
+            margin-top: -90px;
+            z-index: 1;
+            position: relative;
+            border: 1px solid #fff;
+    }
+
+    &__card {
+                img {
+                    width: 100%; 
+                    object-fit: cover;
+                    transition: all 0.3s ease-in;
+
+                    &:hover {
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+                                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                    transform: scale(1.01);
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #B4B4B4;
+                    font-weight: 400;
+                    line-height: 16px;
+                    margin: 0;
+                }
+
+                h3 {
+                        text-align: center; 
+                        margin-bottom: 10px;
+
+                    a {
+                        font-weight: 600;
+                        font-size: 28px;
+                        line-height: 26px; 
+                        color: #fff; 
+
+                    &:hover {
+                        color: #616161;
+                    }
+                    }
+                }
+            }
+
+    &__outer {
+        display: flex;
+        justify-content: flex-start; 
+        margin: 60px -10px 0;
+        flex-wrap: wrap; 
+    }
+
+     
+}
+.h-img {
+        height: 600px;
+    object-fit: cover;
+}
+.w-img {
+        height: 274px;
+    object-fit: cover;
+}
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ProximaNovaRegular", sans-serif;
+}
+@include tablet {
+   .h-img, .w-img {
+            height: 300px; 
+    }  
+}
+
+@include mobile {
+      .h-img, .w-img {
+            height: 300px; 
+    }  
+}

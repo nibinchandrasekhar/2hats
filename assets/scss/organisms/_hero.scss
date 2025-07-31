@@ -1,0 +1,71 @@
+.towhats-smile-hero {
+    padding: 40px 0;
+    width: 100%;
+    height: 526px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    .towhats-head h1 {  
+        color: #fff;
+        font-size: 48px; 
+        font-weight: 700;
+    }
+
+    &__outer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    } 
+    &__cnt {
+        font-size: 20px;
+        line-height: 28px;
+        color: #fff;     
+        margin-top: 30px;
+        margin-bottom: 58px;
+       }
+ 
+
+    &__sec1 {
+           width: 57%;
+    padding: 50px 40px;
+        background: #0000005C;
+    }
+ 
+}
+
+@include tablet-pro {
+    .towhats-head h1 {   
+        font-size: 38px;  
+    }
+
+}
+
+@include tablet {
+    .towhats-head h1 {   
+        font-size: 38px;  
+    }
+}
+
+@include mobile {
+    .towhats-smile-hero {
+        height: 100%;
+    }
+    .towhats-smile-hero__outer {
+        flex-direction: column;
+    }
+
+    .towhats-smile-hero__sec1 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+      .towhats-head h1 {  
+        color: #fff;
+        font-size: 38px !important; 
+        font-weight: 700;
+    }
+}
